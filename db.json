@@ -1,0 +1,70 @@
+{
+  "books": [
+    {
+      "id": 101,
+      "title": "The Great Adventure",
+      "author": "James Wilson",
+      "category": "Adventure",
+      "price": 450,
+      "description": "An exciting adventure story about friendship, courage, and discovering the unknown.",
+      "image": "https://example.com/great-adventure.jpg",
+      "rating": 4.6,
+      "stock": 15
+    },
+    {
+      "id": 102,
+      "title": "Learning JavaScript",
+      "author": "David Miller",
+      "category": "Programming",
+      "price": 850,
+      "description": "A beginner-friendly book for learning JavaScript fundamentals and modern programming concepts.",
+      "image": "https://example.com/javascript.jpg",
+      "rating": 4.8,
+      "stock": 20
+    },
+    {
+      "id": 103,
+      "title": "The Art of Focus",
+      "author": "Sarah Thompson",
+      "category": "Self Development",
+      "price": 550,
+      "description": "A practical guide to improving concentration, productivity, and daily habits.",
+      "image": "https://example.com/art-of-focus.jpg",
+      "rating": 4.4,
+      "stock": 12
+    },
+    {
+      "id": 104,
+      "title": "Mystery of the Old House",
+      "author": "Robert Brown",
+      "category": "Mystery",
+      "price": 500,
+      "description": "A thrilling mystery about an old house hiding secrets from the past.",
+      "image": "https://example.com/old-house.jpg",
+      "rating": 4.7,
+      "stock": 18
+    },
+    {
+      "id": 105,
+      "title": "Introduction to Web Development",
+      "author": "Michael Anderson",
+      "category": "Web Development",
+      "price": 950,
+      "description": "Learn HTML, CSS, JavaScript, and the fundamentals of building modern websites.",
+      "image": "https://example.com/web-development.jpg",
+      "rating": 4.9,
+      "stock": 25
+    },
+    {
+      "id": 106,
+      "title": "Journey Through Space",
+      "author": "Emily Carter",
+      "category": "Science",
+      "price": 650,
+      "description": "Explore planets, stars, galaxies, and the fascinating mysteries of outer space.",
+      "image": "https://example.com/space.jpg",
+      "rating": 4.5,
+      "stock": 10
+    }
+  ]
+}

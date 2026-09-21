@@ -6,6 +6,9 @@ const Navbar = () => {
     
      <li><Link href='/'>Home</Link></li>
      <li><Link href='/dashboard'>Dashboard</Link></li>
+     <li><Link href='/Posts'>Posts</Link></li>
+     <li><Link href='/books'>Books</Link></li>
+
      
       
     
@@ -23,8 +26,9 @@ const Navbar = () => {
        
        {Links}
       </ul>
+      {/* className="btn btn-ghost text-xl" */}
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+     <button className='btn btn-ghost text-xl'  >daisyUI</button>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
