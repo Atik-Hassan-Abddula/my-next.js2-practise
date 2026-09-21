@@ -1,8 +1,9 @@
 import React from 'react';
 import BooksCard from '../Components/BooksCard';
+import next from 'next';
 
 const getbooks = async()=>{
-    const res = await fetch('http://localhost:5000/books')
+    const res = await fetch('http://localhost:5000/books',{next:{revalidate:5}})
     if(!res.ok){
         throw new Error ('Faill the feach books')
     }
