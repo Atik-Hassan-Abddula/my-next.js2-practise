@@ -1,4 +1,5 @@
 import React from 'react';
+import BooksCard from '../Components/BooksCard';
 
 const getbooks = async()=>{
     const res = await fetch('http://localhost:5000/books')
@@ -15,6 +16,11 @@ const BooksPage = async () => {
     return (
         <div>
             <h2>Books:{BooksPage.length}</h2>
+            <div className='grid grid-cols-3 gap-4 '>
+                {
+                    BooksPage.map(BooksPage=> <BooksCard key={BooksPage.id} BooksPage={BooksPage} ></BooksCard>)
+                }
+            </div>
         </div>
     );
 };
